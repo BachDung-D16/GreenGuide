@@ -1,0 +1,35 @@
+.wppr-inline-pie-chart {
+	position: relative;
+	width: 120px;
+	height: 120px;
+}
+
+.wppr-default-img {
+	width: 150px;
+	height: 150px;
+}
+
+.wppr-product-image {
+	width: 150px;
+	height: 150px;
+}
+
+
+.wppr-template ul li:before {
+	width: auto !important;
+	position: initial !important;
+	background: none !important;
+}
+
+.wppr-template ul li, .wppr-template ol li {
+	position: initial !important;
+	list-style-type: disc;
+	background: none !important;
+}
+
+#review-statistics .review-wu-bars ul.wppr-weak li.colored,
+#review-statistics .review-wu-bars ul.wppr-not-bad li.colored,
+#review-statistics .review-wu-bars ul.wppr-good li.colored,
+#review-statistics .review-wu-bars ul.wppr-very-good li.colored {
+	background: none !important;
+}

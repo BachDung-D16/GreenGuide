@@ -1,0 +1,13 @@
+/**
+ * Widget Color
+*/
+.xpressstore-clearfix:before,
+.xpressstore-clearfix:after {
+    content: '';
+    display: table;
+}
+
+#widget-list [id*='_blogger_buzz_'] .widget-top, 
+#widget-list [id*='_blogger_buzz_'] h3 {
+    background: rgba(191, 191, 191, 0.4);
+}
